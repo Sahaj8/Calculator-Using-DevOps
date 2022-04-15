@@ -14,14 +14,18 @@ public class Calculator {
     }
 
     public double squareRoot(double num){
+        logger.info("[Operation] => Square Root :: " + num + "\n");
         double result = Math.sqrt(num);
-        logger.info("Calculating Square Root of : " + num + "\nResult of Square root is : " + result);
+        logger.info("[Result] => Square root is : " + result + "\n");
+        if(num<0) logger.info("[Info] => Invailid input => Negative number\n");
+        logger.info("\n");
         return result;
     }
+
     public double factorial(double num){
-        logger.info("Calculating Square Root of : " + num + "\n");
+        logger.info("[Operation] => Factorial :: " + num + "\n");
         if(num < 0){
-            logger.info("Factorial of negative number is not possible!");
+            logger.info("[Info] => Invailid input => Negative number\n\n");
             return Double.NaN;
         }
         else{
@@ -29,35 +33,32 @@ public class Calculator {
             for(int i = 1; i <= num; i++){
                 fact *= i;
             }
-            logger.info("Result of factorial is : " + fact);
+            logger.info("[Result] => Factorial is : " + fact + "\n\n");
             return fact;
         }
     }
 
     public double logarithm(double num){
-        logger.info("Calculating Natural Logarithm of : " + num + "\n");
-        if(num < 0){
-            logger.info("Log of negative number is not possible!");
-            return Double.NaN;
-        }
-        else{
-            double result = Math.log(num);
-            logger.info("Result of power is : " + result);
-            return result;
-        }
+        logger.info("[Operation] => Natural Logarithm :: " + num + "\n");
+        double result = Math.log(num);
+        logger.info("[Result] => Natural Logarithm is : " + result + "\n");
+        if(num<0) logger.info("[Info] => Invailid input => Negative number\n");
+        logger.info("\n");
+        return result;
     }
 
     public double power(double num1, double num2){
+        logger.info("[Operation] => Power :: " + num1 + "^" + num2 + "/n");
         double result = Math.pow(num1,num2);
-        logger.info("Calculating : " + num1 + "^" + num2 + "/n Result of power is : " + result);
+        logger.info("[Result] => Power is : " + result + "\n\n");
         return result;
     }
 
     public static void main(String[] args) {
-        Calculator cal = new Calculator();
+        Calculator calc = new Calculator();
         double x, y;
         Scanner scanner = new Scanner(System.in);
-        System.out.println("---------- !! calculator.Calculator Operations !! ----------");
+        System.out.println("---*** !! Calculator Operations !! ***---");
         while(true){
             System.out.println("1. Square Root");
             System.out.println("2. Factorial");
@@ -65,48 +66,53 @@ public class Calculator {
             System.out.println("4. Power");
             System.out.println("5. Exit");
             System.out.print("Please enter your choice : ");
+            
             int choice;
             try {
                 choice = scanner.nextInt();
             } catch (InputMismatchException error) {
                 return;
             }
+
             switch (choice){
                 case 1:  // For Square Root
-                    System.out.println("Square Root Operation:");
+                    System.out.println("[[Square Root]]");
                     System.out.print("Enter a number: ");
                     x = scanner.nextDouble();
-                    System.out.println("Square Root of " + x + " : " + cal.squareRoot(x));
-                    System.out.println("---------- !! Result evaluated !! ----------");
+                    System.out.println("Square Root of " + x + " : " + calc.squareRoot(x));
+                    System.out.println("[[Done]]");
                     break;
 
                 case 2: // For Factorial
-                    System.out.println("Factorial Operation:");
+                    System.out.println("[[Factorial]]");
                     System.out.print("Enter a number: ");
                     x = scanner.nextDouble();
-                    System.out.println("Factorial of " + x + " : " + cal.factorial(x));
-                    System.out.println("---------- !! Result evaluated !! ----------");
+                    System.out.println("Factorial of " + x + " : " + calc.factorial(x));
+                    System.out.println("[[Done]]");
                     break;
+
                 case 3:  // For Natural Logarithm
-                    System.out.println("Natural Logarithm Operation:");
+                    System.out.println([["Natural Logarithm]]");
                     System.out.print("Enter a number: ");
                     x = scanner.nextDouble();
-                    System.out.println("Natural Logarithm of " + x + " : " + cal.logarithm(x));
-                    System.out.println("---------- !! Result evaluated !! ----------");
+                    System.out.println("Natural Logarithm of " + x + " : " + calc.logarithm(x));
+                    System.out.println("[[Done]]");
                     break;
+
                 case 4:  // For Power Function
-                    System.out.println("Exponential Function:");
-                    System.out.println("Enter the first number: ");
+                    System.out.println("[[Power]]");
+                    System.out.print("Enter the first number: ");
                     x = scanner.nextDouble();
-                    System.out.println("Enter the second number : ");
+                    System.out.print("Enter the second number : ");
                     y = scanner.nextDouble();
-                    System.out.println("Power :" + x + "^" + y + " : " + cal.power(x,y));
-                    System.out.println("---------- !! Result evaluated !! ----------");
+                    System.out.println("Power of :" + x + "^" + y + " : " + calc.power(x,y));
+                    System.out.println("[[Done]]");
                     break;
 
                 case 5:
-                    System.out.println("---------- !! Exit !! ----------");
+                    System.out.println("---*** !! Exit !! ***---");
                     exit(0);
+
                 default:
                     System.out.println("Invalid choice entered!");
 
