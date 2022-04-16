@@ -1,9 +1,9 @@
 pipeline {
-		agent any 
+	agent any 
     stages {
         stage('Git Pull') {
             steps {
-				git url: 'https://github.com/Sahaj8/Calculator-Using-DevOps.git', branch: 'main'
+		git url: 'https://github.com/Sahaj8/Calculator-Using-DevOps.git', branch: 'main'
             }
         }
         stage('Maven Build') {
