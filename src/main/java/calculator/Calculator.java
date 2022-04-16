@@ -92,7 +92,7 @@ public class Calculator {
                     break;
 
                 case 3:  // For Natural Logarithm
-                    System.out.println([["Natural Logarithm]]");
+                    System.out.println("[[Natural Logarithm]]");
                     System.out.print("Enter a number: ");
                     x = scanner.nextDouble();
                     System.out.println("Natural Logarithm of " + x + " : " + calc.logarithm(x));

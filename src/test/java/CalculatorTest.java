@@ -23,8 +23,8 @@ public class CalculatorTest {
 
     @Test
     public void factorialPositive() {
-        assertEquals("Testing for True Positive for factorial", 120.0, cal.factorial(5.0), delta);
-        assertEquals("Testing for True Negative for factorial", Double.NaN, cal.factorial(-5.0), delta);
+        assertEquals("Testing for True Positive for factorial", 120.0, calc.factorial(5.0), delta);
+        assertEquals("Testing for True Negative for factorial", Double.NaN, calc.factorial(-5.0), delta);
 
     }
 
@@ -36,7 +36,7 @@ public class CalculatorTest {
 
     @Test
     public void logarithmPositive() {
-        assertEquals("Testing for True Positive for logarithm", 2.302585092994046, cacl.logarithm(10.0), delta);
+        assertEquals("Testing for True Positive for logarithm", 2.302585092994046, calc.logarithm(10.0), delta);
         assertEquals("Testing for True Negative for logarithm", Double.NaN, calc.logarithm(-10.0), delta);
     }
 

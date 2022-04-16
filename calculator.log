@@ -1,117 +1,113 @@
-2022-04-09 19:11:02.299 [main] INFO  calculator.Calculator - Calculating : 0.0^0.0/n Result of power is : 1.0
-2022-04-09 19:11:02.302 [main] INFO  calculator.Calculator - Calculating : 2.0^-3.0/n Result of power is : 0.125
-2022-04-09 19:11:02.304 [main] INFO  calculator.Calculator - Calculating Square Root of : 5.0
+2022-04-16 11:07:27.924 [main] INFO  calculator.Calculator - [Operation] => Power :: 0.0^0.0/n
+2022-04-16 11:07:27.928 [main] INFO  calculator.Calculator - [Result] => Power is : 1.0
 
-2022-04-09 19:11:02.306 [main] INFO  calculator.Calculator - Result of factorial is : 120.0
-2022-04-09 19:11:02.306 [main] INFO  calculator.Calculator - Calculating Square Root of : -5.0
 
-2022-04-09 19:11:02.306 [main] INFO  calculator.Calculator - Factorial of negative number is not possible!
-2022-04-09 19:11:02.308 [main] INFO  calculator.Calculator - Calculating Square Root of : -5.0
+2022-04-16 11:07:27.929 [main] INFO  calculator.Calculator - [Operation] => Power :: 2.0^-3.0/n
+2022-04-16 11:07:27.929 [main] INFO  calculator.Calculator - [Result] => Power is : 0.125
 
-2022-04-09 19:11:02.308 [main] INFO  calculator.Calculator - Factorial of negative number is not possible!
-2022-04-09 19:11:02.308 [main] INFO  calculator.Calculator - Calculating Square Root of : 5.0
 
-2022-04-09 19:11:02.309 [main] INFO  calculator.Calculator - Result of factorial is : 120.0
-2022-04-09 19:11:02.311 [main] INFO  calculator.Calculator - Calculating Natural Logarithm of : 10.0
+2022-04-16 11:07:27.931 [main] INFO  calculator.Calculator - [Operation] => Factorial :: 5.0
 
-2022-04-09 19:11:02.311 [main] INFO  calculator.Calculator - Result of power is : 2.302585092994046
-2022-04-09 19:11:02.312 [main] INFO  calculator.Calculator - Calculating Natural Logarithm of : -10.0
+2022-04-16 11:07:27.931 [main] INFO  calculator.Calculator - [Result] => Factorial is : 120.0
 
-2022-04-09 19:11:02.312 [main] INFO  calculator.Calculator - Log of negative number is not possible!
-2022-04-09 19:11:02.313 [main] INFO  calculator.Calculator - Calculating Natural Logarithm of : -10.0
 
-2022-04-09 19:11:02.314 [main] INFO  calculator.Calculator - Log of negative number is not possible!
-2022-04-09 19:11:02.314 [main] INFO  calculator.Calculator - Calculating Natural Logarithm of : 15.0
+2022-04-16 11:07:27.932 [main] INFO  calculator.Calculator - [Operation] => Factorial :: -5.0
 
-2022-04-09 19:11:02.314 [main] INFO  calculator.Calculator - Result of power is : 2.70805020110221
-2022-04-09 19:11:02.324 [main] INFO  calculator.Calculator - Calculating Square Root of : 25.0
- Result of Square root is : 5.0
-2022-04-09 19:11:02.324 [main] INFO  calculator.Calculator - Calculating Square Root of : -25.0
- Result of Square root is : NaN
-2022-04-09 19:11:02.325 [main] INFO  calculator.Calculator - Calculating Square Root of : -25.0
- Result of Square root is : NaN
-2022-04-09 19:11:02.325 [main] INFO  calculator.Calculator - Calculating Square Root of : 16.0
- Result of Square root is : 4.0
-2022-04-09 19:11:02.325 [main] INFO  calculator.Calculator - Calculating : 2.0^4.0/n Result of power is : 16.0
-2022-04-09 19:11:02.326 [main] INFO  calculator.Calculator - Calculating : 2.0^-3.0/n Result of power is : 0.125
-2022-04-09 19:31:23.725 [main] INFO  calculator.Calculator - Calculating : 0.0^0.0/n Result of power is : 1.0
-2022-04-09 19:31:23.727 [main] INFO  calculator.Calculator - Calculating : 2.0^-3.0/n Result of power is : 0.125
-2022-04-09 19:31:23.729 [main] INFO  calculator.Calculator - Calculating Square Root of : 5.0
+2022-04-16 11:07:27.932 [main] INFO  calculator.Calculator - [Info] => Invailid input => Negative number
 
-2022-04-09 19:31:23.730 [main] INFO  calculator.Calculator - Result of factorial is : 120.0
-2022-04-09 19:31:23.731 [main] INFO  calculator.Calculator - Calculating Square Root of : -5.0
 
-2022-04-09 19:31:23.731 [main] INFO  calculator.Calculator - Factorial of negative number is not possible!
-2022-04-09 19:31:23.733 [main] INFO  calculator.Calculator - Calculating Square Root of : -5.0
+2022-04-16 11:07:27.933 [main] INFO  calculator.Calculator - [Operation] => Factorial :: -5.0
 
-2022-04-09 19:31:23.733 [main] INFO  calculator.Calculator - Factorial of negative number is not possible!
-2022-04-09 19:31:23.734 [main] INFO  calculator.Calculator - Calculating Square Root of : 5.0
+2022-04-16 11:07:27.933 [main] INFO  calculator.Calculator - [Info] => Invailid input => Negative number
 
-2022-04-09 19:31:23.734 [main] INFO  calculator.Calculator - Result of factorial is : 120.0
-2022-04-09 19:31:23.735 [main] INFO  calculator.Calculator - Calculating Natural Logarithm of : 10.0
 
-2022-04-09 19:31:23.736 [main] INFO  calculator.Calculator - Result of power is : 2.302585092994046
-2022-04-09 19:31:23.737 [main] INFO  calculator.Calculator - Calculating Natural Logarithm of : -10.0
+2022-04-16 11:07:27.934 [main] INFO  calculator.Calculator - [Operation] => Factorial :: 5.0
 
-2022-04-09 19:31:23.737 [main] INFO  calculator.Calculator - Log of negative number is not possible!
-2022-04-09 19:31:23.738 [main] INFO  calculator.Calculator - Calculating Natural Logarithm of : -10.0
+2022-04-16 11:07:27.934 [main] INFO  calculator.Calculator - [Result] => Factorial is : 120.0
 
-2022-04-09 19:31:23.738 [main] INFO  calculator.Calculator - Log of negative number is not possible!
-2022-04-09 19:31:23.738 [main] INFO  calculator.Calculator - Calculating Natural Logarithm of : 15.0
 
-2022-04-09 19:31:23.739 [main] INFO  calculator.Calculator - Result of power is : 2.70805020110221
-2022-04-09 19:31:23.747 [main] INFO  calculator.Calculator - Calculating Square Root of : 25.0
- Result of Square root is : 5.0
-2022-04-09 19:31:23.747 [main] INFO  calculator.Calculator - Calculating Square Root of : -25.0
- Result of Square root is : NaN
-2022-04-09 19:31:23.748 [main] INFO  calculator.Calculator - Calculating Square Root of : -25.0
- Result of Square root is : NaN
-2022-04-09 19:31:23.748 [main] INFO  calculator.Calculator - Calculating Square Root of : 16.0
- Result of Square root is : 4.0
-2022-04-09 19:31:23.749 [main] INFO  calculator.Calculator - Calculating : 2.0^4.0/n Result of power is : 16.0
-2022-04-09 19:31:23.749 [main] INFO  calculator.Calculator - Calculating : 2.0^-3.0/n Result of power is : 0.125
-2022-04-09 19:36:54.755 [main] INFO  calculator.Calculator - Calculating : 0.0^0.0/n Result of power is : 1.0
-2022-04-09 19:36:54.758 [main] INFO  calculator.Calculator - Calculating : 2.0^-3.0/n Result of power is : 0.125
-2022-04-09 19:36:54.761 [main] INFO  calculator.Calculator - Calculating Square Root of : 5.0
+2022-04-16 11:07:27.935 [main] INFO  calculator.Calculator - [Operation] => Natural Logarithm :: 10.0
 
-2022-04-09 19:36:54.762 [main] INFO  calculator.Calculator - Result of factorial is : 120.0
-2022-04-09 19:36:54.763 [main] INFO  calculator.Calculator - Calculating Square Root of : -5.0
+2022-04-16 11:07:27.936 [main] INFO  calculator.Calculator - [Result] => Natural Logarithm is : 2.302585092994046
 
-2022-04-09 19:36:54.764 [main] INFO  calculator.Calculator - Factorial of negative number is not possible!
-2022-04-09 19:36:54.765 [main] INFO  calculator.Calculator - Calculating Square Root of : -5.0
+2022-04-16 11:07:27.936 [main] INFO  calculator.Calculator - 
 
-2022-04-09 19:36:54.765 [main] INFO  calculator.Calculator - Factorial of negative number is not possible!
-2022-04-09 19:36:54.766 [main] INFO  calculator.Calculator - Calculating Square Root of : 5.0
+2022-04-16 11:07:27.938 [main] INFO  calculator.Calculator - [Operation] => Natural Logarithm :: -10.0
 
-2022-04-09 19:36:54.766 [main] INFO  calculator.Calculator - Result of factorial is : 120.0
-2022-04-09 19:36:54.767 [main] INFO  calculator.Calculator - Calculating Natural Logarithm of : 10.0
+2022-04-16 11:07:27.938 [main] INFO  calculator.Calculator - [Result] => Natural Logarithm is : NaN
 
-2022-04-09 19:36:54.768 [main] INFO  calculator.Calculator - Result of power is : 2.302585092994046
-2022-04-09 19:36:54.769 [main] INFO  calculator.Calculator - Calculating Natural Logarithm of : -10.0
+2022-04-16 11:07:27.938 [main] INFO  calculator.Calculator - [Info] => Invailid input => Negative number
 
-2022-04-09 19:36:54.769 [main] INFO  calculator.Calculator - Log of negative number is not possible!
-2022-04-09 19:36:54.770 [main] INFO  calculator.Calculator - Calculating Natural Logarithm of : -10.0
+2022-04-16 11:07:27.938 [main] INFO  calculator.Calculator - 
 
-2022-04-09 19:36:54.770 [main] INFO  calculator.Calculator - Log of negative number is not possible!
-2022-04-09 19:36:54.770 [main] INFO  calculator.Calculator - Calculating Natural Logarithm of : 15.0
+2022-04-16 11:07:27.940 [main] INFO  calculator.Calculator - [Operation] => Natural Logarithm :: -10.0
 
-2022-04-09 19:36:54.771 [main] INFO  calculator.Calculator - Result of power is : 2.70805020110221
-2022-04-09 19:36:54.782 [main] INFO  calculator.Calculator - Calculating Square Root of : 25.0
- Result of Square root is : 5.0
-2022-04-09 19:36:54.783 [main] INFO  calculator.Calculator - Calculating Square Root of : -25.0
- Result of Square root is : NaN
-2022-04-09 19:36:54.784 [main] INFO  calculator.Calculator - Calculating Square Root of : -25.0
- Result of Square root is : NaN
-2022-04-09 19:36:54.784 [main] INFO  calculator.Calculator - Calculating Square Root of : 16.0
- Result of Square root is : 4.0
-2022-04-09 19:36:54.785 [main] INFO  calculator.Calculator - Calculating : 2.0^4.0/n Result of power is : 16.0
-2022-04-09 19:36:54.785 [main] INFO  calculator.Calculator - Calculating : 2.0^-3.0/n Result of power is : 0.125
-2022-04-09 19:50:53.468 [main] INFO  calculator.Calculator - Calculating Square Root of : 4.0
- Result of Square root is : 2.0
-2022-04-09 19:51:10.946 [main] INFO  calculator.Calculator - Calculating Square Root of : 5.0
+2022-04-16 11:07:27.940 [main] INFO  calculator.Calculator - [Result] => Natural Logarithm is : NaN
 
-2022-04-09 19:51:10.948 [main] INFO  calculator.Calculator - Result of factorial is : 120.0
-2022-04-09 19:53:02.888 [main] INFO  calculator.Calculator - Calculating Natural Logarithm of : 10.0
+2022-04-16 11:07:27.941 [main] INFO  calculator.Calculator - [Info] => Invailid input => Negative number
 
-2022-04-09 19:53:02.889 [main] INFO  calculator.Calculator - Result of power is : 2.302585092994046
-2022-04-09 19:53:37.449 [main] INFO  calculator.Calculator - Calculating : 5.0^3.0/n Result of power is : 125.0
+2022-04-16 11:07:27.941 [main] INFO  calculator.Calculator - 
+
+2022-04-16 11:07:27.941 [main] INFO  calculator.Calculator - [Operation] => Natural Logarithm :: 15.0
+
+2022-04-16 11:07:27.941 [main] INFO  calculator.Calculator - [Result] => Natural Logarithm is : 2.70805020110221
+
+2022-04-16 11:07:27.942 [main] INFO  calculator.Calculator - 
+
+2022-04-16 11:07:27.943 [main] INFO  calculator.Calculator - [Operation] => Square Root :: 25.0
+
+2022-04-16 11:07:27.944 [main] INFO  calculator.Calculator - [Result] => Square root is : 5.0
+
+2022-04-16 11:07:27.944 [main] INFO  calculator.Calculator - 
+
+2022-04-16 11:07:27.944 [main] INFO  calculator.Calculator - [Operation] => Square Root :: -25.0
+
+2022-04-16 11:07:27.944 [main] INFO  calculator.Calculator - [Result] => Square root is : NaN
+
+2022-04-16 11:07:27.945 [main] INFO  calculator.Calculator - [Info] => Invailid input => Negative number
+
+2022-04-16 11:07:27.945 [main] INFO  calculator.Calculator - 
+
+2022-04-16 11:07:27.946 [main] INFO  calculator.Calculator - [Operation] => Square Root :: -25.0
+
+2022-04-16 11:07:27.946 [main] INFO  calculator.Calculator - [Result] => Square root is : NaN
+
+2022-04-16 11:07:27.947 [main] INFO  calculator.Calculator - [Info] => Invailid input => Negative number
+
+2022-04-16 11:07:27.947 [main] INFO  calculator.Calculator - 
+
+2022-04-16 11:07:27.947 [main] INFO  calculator.Calculator - [Operation] => Square Root :: 16.0
+
+2022-04-16 11:07:27.947 [main] INFO  calculator.Calculator - [Result] => Square root is : 4.0
+
+2022-04-16 11:07:27.948 [main] INFO  calculator.Calculator - 
+
+2022-04-16 11:07:27.948 [main] INFO  calculator.Calculator - [Operation] => Power :: 2.0^4.0/n
+2022-04-16 11:07:27.949 [main] INFO  calculator.Calculator - [Result] => Power is : 16.0
+
+
+2022-04-16 11:07:27.949 [main] INFO  calculator.Calculator - [Operation] => Power :: 2.0^-3.0/n
+2022-04-16 11:07:27.950 [main] INFO  calculator.Calculator - [Result] => Power is : 0.125
+
+
+2022-04-16 11:11:28.609 [main] INFO  calculator.Calculator - [Operation] => Square Root :: 25.0
+
+2022-04-16 11:11:28.612 [main] INFO  calculator.Calculator - [Result] => Square root is : 5.0
+
+2022-04-16 11:11:28.612 [main] INFO  calculator.Calculator - 
+
+2022-04-16 11:12:30.767 [main] INFO  calculator.Calculator - [Operation] => Factorial :: 5.0
+
+2022-04-16 11:12:30.768 [main] INFO  calculator.Calculator - [Result] => Factorial is : 120.0
+
+
+2022-04-16 11:12:37.680 [main] INFO  calculator.Calculator - [Operation] => Natural Logarithm :: 10.0
+
+2022-04-16 11:12:37.681 [main] INFO  calculator.Calculator - [Result] => Natural Logarithm is : 2.302585092994046
+
+2022-04-16 11:12:37.681 [main] INFO  calculator.Calculator - 
+
+2022-04-16 11:12:44.792 [main] INFO  calculator.Calculator - [Operation] => Power :: 2.0^5.0/n
+2022-04-16 11:12:44.793 [main] INFO  calculator.Calculator - [Result] => Power is : 32.0
+
+
