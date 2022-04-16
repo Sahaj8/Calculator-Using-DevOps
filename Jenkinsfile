@@ -11,14 +11,14 @@ pipeline {
                 sh 'mvn clean install'
             }
         }
-         stage('Docker build') {
+         stage('Docker Build') {
             steps{
                 script {
                     imageName=docker.build "sahajv/calculatorusingdevops"
                 }
             }
         }
-        stage('Docker push img') {
+        stage('Docker Push Image') {
             steps {
                 script{
                     docker.withRegistry('','docker_cred'){
